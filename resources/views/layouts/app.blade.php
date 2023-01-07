@@ -6,7 +6,8 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Laravel') }}</title>
-
+        
+        @livewireStyles
         <!-- Styles -->
         @include('layouts.partials.styles')
     </head>

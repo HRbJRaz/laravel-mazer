@@ -1,10 +1,9 @@
 <x-guest-layout>
     <div id="auth-left">
         <div class="auth-logo">
-            <a href="index.html"><img src="{{ asset('/images/logo/logo.png') }}" alt="Logo"></a>
+            <a href="index.html"><img class="w-100 h-100" src="{{ asset('/images/logo/logo.png') }}" alt="Logo"></a>
         </div>
         <h1 class="auth-title">Sign Up</h1>
-        <p class="auth-subtitle mb-5">Input your data to register to our website.</p>
 
         <form action="" method="POST">
             @csrf

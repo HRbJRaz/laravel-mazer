@@ -7,11 +7,12 @@
 
 
 <!-- Styles -->
+<script src="https://cdn.tailwindcss.com"></script>
+
 <link rel="stylesheet" href="{{ mix('css/bootstrap.css') }}">
 <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 <link rel="stylesheet" href="{{ mix('css/app-dark.css') }}">
 
 
-@livewireStyles
 
 {{ $style ?? '' }}
